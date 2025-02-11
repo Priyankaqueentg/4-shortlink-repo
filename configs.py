@@ -8,7 +8,7 @@ DATABASE_URL = environ.get("DATABASE_URL", "")
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
 ADMINS = int(environ.get("ADMINS", ""))
 IS_FSUB = bool(environ.get("FSUB", True))
-AUTH_CHANNELS = environ.get("AUTH_CHANNEL", "-1002290222861")")
+AUTH_CHANNELS = environ.get("AUTH_CHANNEL", "-1002290222861")
 AUTH_CHANNELS = [int(channel_id) for channel_id in AUTH_CHANNELS.split(","]
 
 START_TXT = '''<b>{},
